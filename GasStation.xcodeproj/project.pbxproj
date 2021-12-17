@@ -35,7 +35,6 @@
 		083F8F4B276C0ADA00E243F7 /* GasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasModel.swift; sourceTree = "<group>"; };
 		083F8F4D276C0B0200E243F7 /* GasModelPreviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasModelPreviewHelper.swift; sourceTree = "<group>"; };
 		083F8F4F276C0B2800E243F7 /* ExampleGasQuery.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExampleGasQuery.json; sourceTree = "<group>"; };
-		083F8F52276C0C0A00E243F7 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = Views/Config.xcconfig; sourceTree = "<group>"; };
 		083F8F53276C0C6100E243F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				083F8F53276C0C6100E243F7 /* Info.plist */,
-				083F8F52276C0C0A00E243F7 /* Config.xcconfig */,
 				083F8F2C276C026D00E243F7 /* GasStationApp.swift */,
 				083F8F41276C084900E243F7 /* Views */,
 				083F8F44276C08C800E243F7 /* Managers */,
@@ -207,7 +205,6 @@
 /* Begin XCBuildConfiguration section */
 		083F8F35276C026F00E243F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 083F8F52276C0C0A00E243F7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -269,7 +266,6 @@
 		};
 		083F8F36276C026F00E243F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 083F8F52276C0C0A00E243F7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
