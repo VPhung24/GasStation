@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  GasStation
+//
+//  Created by Vivian Phung on 12/16/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_KEY = 0010e5eee1300cc70fc508ba22d24ce1537175ab84690a66568183fb3dbc

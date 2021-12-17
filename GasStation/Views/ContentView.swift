@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = GasRequestManager()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        GasStationView(viewModel: viewModel)
     }
 }
 

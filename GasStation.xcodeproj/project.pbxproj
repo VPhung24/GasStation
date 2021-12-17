@@ -11,6 +11,14 @@
 		083F8F2F276C026D00E243F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F2E276C026D00E243F7 /* ContentView.swift */; };
 		083F8F31276C026F00E243F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083F8F30276C026F00E243F7 /* Assets.xcassets */; };
 		083F8F34276C026F00E243F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083F8F33276C026F00E243F7 /* Preview Assets.xcassets */; };
+		083F8F40276C07E700E243F7 /* GasStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F3F276C07E700E243F7 /* GasStationView.swift */; };
+		083F8F43276C08A900E243F7 /* GasTickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F42276C08A900E243F7 /* GasTickerView.swift */; };
+		083F8F46276C08E800E243F7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F45276C08E800E243F7 /* NetworkManager.swift */; };
+		083F8F48276C0A7900E243F7 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F47276C0A7900E243F7 /* DeviceManager.swift */; };
+		083F8F4A276C0AB400E243F7 /* GasRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F49276C0AB400E243F7 /* GasRequestManager.swift */; };
+		083F8F4C276C0ADA00E243F7 /* GasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F4B276C0ADA00E243F7 /* GasModel.swift */; };
+		083F8F4E276C0B0200E243F7 /* GasModelPreviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F8F4D276C0B0200E243F7 /* GasModelPreviewHelper.swift */; };
+		083F8F50276C0B2800E243F7 /* ExampleGasQuery.json in Resources */ = {isa = PBXBuildFile; fileRef = 083F8F4F276C0B2800E243F7 /* ExampleGasQuery.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,16 @@
 		083F8F2E276C026D00E243F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		083F8F30276C026F00E243F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		083F8F33276C026F00E243F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		083F8F3F276C07E700E243F7 /* GasStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationView.swift; sourceTree = "<group>"; };
+		083F8F42276C08A900E243F7 /* GasTickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTickerView.swift; sourceTree = "<group>"; };
+		083F8F45276C08E800E243F7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		083F8F47276C0A7900E243F7 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		083F8F49276C0AB400E243F7 /* GasRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasRequestManager.swift; sourceTree = "<group>"; };
+		083F8F4B276C0ADA00E243F7 /* GasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasModel.swift; sourceTree = "<group>"; };
+		083F8F4D276C0B0200E243F7 /* GasModelPreviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasModelPreviewHelper.swift; sourceTree = "<group>"; };
+		083F8F4F276C0B2800E243F7 /* ExampleGasQuery.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExampleGasQuery.json; sourceTree = "<group>"; };
+		083F8F52276C0C0A00E243F7 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = Views/Config.xcconfig; sourceTree = "<group>"; };
+		083F8F53276C0C6100E243F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,13 @@
 		083F8F2B276C026D00E243F7 /* GasStation */ = {
 			isa = PBXGroup;
 			children = (
+				083F8F53276C0C6100E243F7 /* Info.plist */,
+				083F8F52276C0C0A00E243F7 /* Config.xcconfig */,
 				083F8F2C276C026D00E243F7 /* GasStationApp.swift */,
-				083F8F2E276C026D00E243F7 /* ContentView.swift */,
+				083F8F41276C084900E243F7 /* Views */,
+				083F8F44276C08C800E243F7 /* Managers */,
+				083F8F51276C0B3700E243F7 /* Helpers */,
+				083F8F4B276C0ADA00E243F7 /* GasModel.swift */,
 				083F8F30276C026F00E243F7 /* Assets.xcassets */,
 				083F8F32276C026F00E243F7 /* Preview Content */,
 			);
@@ -65,6 +88,35 @@
 				083F8F33276C026F00E243F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		083F8F41276C084900E243F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				083F8F2E276C026D00E243F7 /* ContentView.swift */,
+				083F8F3F276C07E700E243F7 /* GasStationView.swift */,
+				083F8F42276C08A900E243F7 /* GasTickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		083F8F44276C08C800E243F7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				083F8F45276C08E800E243F7 /* NetworkManager.swift */,
+				083F8F47276C0A7900E243F7 /* DeviceManager.swift */,
+				083F8F49276C0AB400E243F7 /* GasRequestManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		083F8F51276C0B3700E243F7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				083F8F4D276C0B0200E243F7 /* GasModelPreviewHelper.swift */,
+				083F8F4F276C0B2800E243F7 /* ExampleGasQuery.json */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				083F8F34276C026F00E243F7 /* Preview Assets.xcassets in Resources */,
+				083F8F50276C0B2800E243F7 /* ExampleGasQuery.json in Resources */,
 				083F8F31276C026F00E243F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				083F8F2F276C026D00E243F7 /* ContentView.swift in Sources */,
+				083F8F4A276C0AB400E243F7 /* GasRequestManager.swift in Sources */,
+				083F8F48276C0A7900E243F7 /* DeviceManager.swift in Sources */,
 				083F8F2D276C026D00E243F7 /* GasStationApp.swift in Sources */,
+				083F8F4E276C0B0200E243F7 /* GasModelPreviewHelper.swift in Sources */,
+				083F8F46276C08E800E243F7 /* NetworkManager.swift in Sources */,
+				083F8F4C276C0ADA00E243F7 /* GasModel.swift in Sources */,
+				083F8F43276C08A900E243F7 /* GasTickerView.swift in Sources */,
+				083F8F40276C07E700E243F7 /* GasStationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +207,7 @@
 /* Begin XCBuildConfiguration section */
 		083F8F35276C026F00E243F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083F8F52276C0C0A00E243F7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -208,6 +269,7 @@
 		};
 		083F8F36276C026F00E243F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083F8F52276C0C0A00E243F7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -272,6 +334,7 @@
 				DEVELOPMENT_TEAM = 9SAQ42S589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GasStation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +364,7 @@
 				DEVELOPMENT_TEAM = 9SAQ42S589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GasStation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
