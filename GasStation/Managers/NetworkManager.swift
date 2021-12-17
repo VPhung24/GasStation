@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-// Example Query: https://data-api.defipulse.com/api/v1/egs/api/ethgasAPI.json?api-key=0010e5eee1300cc70fc508ba22d24ce1537175ab84690a66568183fb3dbc
+// Example Query: https://data-api.defipulse.com/api/v1/egs/api/ethgasAPI.json?api-key=<INSERT_API_KEY_HERE>
 
 struct NetworkManager {
     let url: URL!
@@ -20,7 +20,7 @@ struct NetworkManager {
     }()
     
     init() {
-        // hardcode apikey here & comment guard
+        // testing urself? hardcode apikey here & comment guard below
         // let key = ...
         
         guard let key = Bundle.main.infoDictionary?["API_KEY"] as? String else {
