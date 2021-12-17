@@ -1,5 +1,3 @@
-# Lazy Gas Station 
-
 ### Help
 email: GasStationHelp@vivianphung.com
 
