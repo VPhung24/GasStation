@@ -37,21 +37,24 @@ struct GasStationView_Previews: PreviewProvider {
                 .previewDisplayName("iPhone 12 Pro Max")
                 .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro Max"))
             
-            GasStationView(viewModel: .init())
-                .previewDisplayName("iPod Touch")
-                .previewDevice(PreviewDevice(rawValue: "iPod Touch"))
-            
-            GasStationView(viewModel: .init())
-                .previewDisplayName("iPhone 12")
-                .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
-            
-            GasStationView(viewModel: .init())
-                .previewDisplayName("iPhone 8")
-                .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
-            
-            GasStationView(viewModel: .init())
-                .previewDisplayName("iPhone SE")
-                .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+//            GasStationView(viewModel: .init())
+//                .previewDisplayName("iPod Touch")
+//                .previewDevice(PreviewDevice(rawValue: "iPod Touch"))
+//
+//            GasStationView(viewModel: .init())
+//                .previewDisplayName("iPhone 12")
+//                .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+//            GasStationView(viewModel: .init())
+//                .previewDisplayName("iPhone 12")
+//                .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+//
+//            GasStationView(viewModel: .init())
+//                .previewDisplayName("iPhone 8")
+//                .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
+//
+//            GasStationView(viewModel: .init())
+//                .previewDisplayName("iPhone 12 mini")
+//                .previewDevice(PreviewDevice(rawValue: "iPhone 12 mini"))
                 
         }
     }
